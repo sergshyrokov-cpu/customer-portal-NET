@@ -1,0 +1,15 @@
+# =============================================================================
+# CANONICAL STORY LIFECYCLE STATUS REGISTRY
+# =============================================================================
+# Authoritative source for each Story's lifecycle status.
+# Owner: backlog-sync (updates this file atomically with
+#        docs/workflow/active-story.yaml). story-orchestrator updates the active
+#        Story's `state` on activation, COMPLETED, and ARCHIVED.
+#
+# Story Markdown files under docs/stories/ do NOT carry a mutable status field.
+#
+# state enum: BACKLOG | READY | IN_PROGRESS | COMPLETED | ARCHIVED
+# =============================================================================
+version: 1
+
+stories: []

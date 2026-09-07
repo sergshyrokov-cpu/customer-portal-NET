@@ -1,0 +1,14 @@
+# Identity + activation metadata of the active Story.
+# Schema: docs/workflow/state-schema.md
+# Writer: backlog-sync (directly, or delegated by story-orchestrator on activation).
+version: 1
+active_story: null
+story_path: null
+source:
+  type: local_only
+  repository: null
+  issue_number: null
+  issue_url: null
+activated_at: null
+activated_by: null
+status: NOT_STARTED

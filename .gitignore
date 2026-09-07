@@ -1,0 +1,41 @@
+### .NET ###
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+[Ll]ogs/
+
+### Generated SQLite database files (persistence-conventions.md PC-1 / SC-7) ###
+/data/
+
+### Rider / IntelliJ platform ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Visual Studio ###
+.vs/
+
+### VS Code ###
+.vscode/
+
+### NuGet ###
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+### Test / coverage output ###
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+/docs/hooks/tool-usage.jsonl
+**/docs/hooks/tool-usage.jsonl
+/docs/harness-consistency-review.md
